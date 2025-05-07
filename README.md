@@ -110,7 +110,7 @@ Configuramos um modelo de instância que define:
 - Personalize com o nome e a descrição.
 - Selecione **Amazon Linux 2023 AMI** e **t2.micro**.
 - Vincule o grupo de segurança Web e adicione as tags necessárias.
-- Use o script de **User Data** disponível neste repositório, fazendo as seguintes alterações:
+- Use o script de [**User Data**](user-data.sh) disponível neste repositório, fazendo as seguintes alterações:
   - Substitua `EFS_DNS` pelo ID do sistema de arquivos EFS.
   - Substitua `DB_HOST` pelo endpoint do banco de dados.
   - Substitua `DB_NAME`, `DB_HOST` e `DB_PASSWORD` pelas credenciais do banco de dados.
